@@ -6,7 +6,7 @@
 }
 
 /* navigation bar left */
-
+       /* nav up */
 .nav-left{
 	display: flex;
 	float: left;
@@ -15,13 +15,13 @@
 	flex-basis: 25%;
 	justify-content: space-between;
 	color:#fff;
-	overflow: scroll;
+	overflow:auto;
 }
 
 .img-spoty{
 	width: 120px;
 	height: auto;
-margin: 15px 15px 25 12;}
+margin: 15px 15px 25 17;}
 
 .nav-top ul {
 	list-style: none;
@@ -46,8 +46,36 @@ margin: 15px 15px 25 12;}
 }
 
 ul li .fa{
-	font-size: 30px;
+	font-size: 35px;
+	padding-right: 6px;
+	color: #ccc;
+	vertical-align: middle;
 }
+
+    /* nav-down */
+.part-up{
+	margin-left: 15px;
+	width: 85%;
+	border-bottom: 1px solid #ccc;
+}
+
+.part-up a i{
+	padding:0 6px 15px 5px;
+	color: #ccc;
+	font-size: 15px;
+}
+
+.part-down img {
+    width: 21px;
+    height: 21px;
+    margin: 15px 6px 5px 12px;
+    vertical-align: ;
+    background: #ccc;
+    border-radius: 100%;
+    vertical-align: middle;
+    padding: 5px;
+}
+
 /* MAIN CONTENT */
 
 .main-content{
