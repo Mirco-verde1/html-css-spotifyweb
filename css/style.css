@@ -1,0 +1,41 @@
+.wrapper{
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	max-width: 100%;
+}
+
+/* navigation bar left */
+
+.nav-left{
+	display: flex;
+	float: left;
+	flex-direction: column;
+	background:#000;
+	flex-basis: 20%;
+}
+
+.main-content{
+	display: flex;
+	overflow-y: auto;
+	height: 100%;
+	justify-content: space-between;
+	float: left;
+	flex-basis:100vw;
+	background-color:#141f1f;
+
+}
+
+.navbar-fix{
+	position: fixed;
+	height: 80px;
+	width:82%;
+	background-color:#0a0f0f;
+}
+
+
+.footer{
+	height: 80px;
+	width: 100%;
+	background-color:#262626;
+}
