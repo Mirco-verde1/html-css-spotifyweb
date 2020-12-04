@@ -203,19 +203,18 @@ width: auto;
 .box-img{
 	padding-right: 10px;
 	margin-bottom: 20px;
-
+	width: calc(100% / 6 - 20px);
 }
 
 	.box-img img{
-	  width:130px;
-		height:130px;
+	  width: 100%;
+		height: auto;
 
 	}
 /* text under images */
 .box-img h3, .box-img h4{
 	text-align: center;
 	font-size: 12px;
-	width: 140px;
 	color: #fff;
 }
 .box-img h4{
@@ -263,6 +262,7 @@ width: auto;
 .left-part{
 	height: 70px;
 	line-height: 70px;
+	width: 25%;
 }
 
 .left-part img{
@@ -327,23 +327,42 @@ margin-left: 15px;
 
 }
 
-
-
-
-
-
-
-
-
-
 	/* MEDIA QUERY */
+
+
+	/* LG */
+	@media screen and (max-width:1200px){
+		.box-img {
+			width: calc(100% / 6 - 20px);
+			height: auto;
+		}
+	}
+
+	/* MD */
+	@media screen and (max-width:991px){
+
+		.box-img {
+			width: calc(100% / 4 - 20px);
+			height: auto;
+		}
+}
+
+/* SM */
+@media screen and (max-width:767px){
+	.box-img {
+		width: calc(100% / 2 - 20px);
+		height: auto;
+}
+
+}
+
+
 	/* XS */
-	@media only screen and (max-width: 600px) {
+	@media only screen and (max-width: 575px) {
 
 	.box-img h3, .box-img h4{
 		text-align: center;
 		font-size: 9px;
-		width: 145px;
 	}
 	.txt-second-row h4{
 		font-size: 11px;
@@ -355,7 +374,7 @@ margin-left: 15px;
 	    width: 100%;
 	    height: auto;
 	    padding: 0;
-	    margin-left: 5px;
+	    margin-left: 20px;
 	}
 	.nav-left {
 	    float: left;
@@ -374,11 +393,6 @@ margin-left: 15px;
 	    background-color: #141f1f;
 	}
 
-	.box-img img {
-	    width: 145px;;
-	    height: auto;
-
-	}
 
 	.text-up-img {
   margin-bottom: 20px;}
@@ -413,44 +427,3 @@ margin-left: 15px;
 		    line-height: 2px;
 		    padding: 8px;
 		}
-
-		/* SM */
-		@media screen and (min-width:767px){
-			.box-img img {
-		    width:125px;
-				height: auto;
-		}
-
-.img-container{
-	padding-left: 5px;
-}
-
-.box-img {
-    margin-bottom: 20px;
-    width: 110px;
-    margin-left: 20px;
-    margin: 12px;
-}
-
-}
-
-
-		/* MD */
-		@media screen and (min-width:992px)
-		{
-			.box-img img {
-				width:145px;
-				height: auto;
-			}
-
-
-		}
-
-
-	/* LG */
-	@media screen and (min-width:1200px){
-		.box-img img {
-			width:155px;
-			height: auto;
-		}
-	}
