@@ -111,13 +111,11 @@ ul li .fa{
     width: 20px;
     height: 20px;
     margin:10px 0 0 18px;
-    vertical-align: ;
+    vertical-align:bottom ;
     background: #ccc;
     border-radius: 100%;
 }
- .part-down{
-	 line-height:30px;
- }
+
 /* MAIN CONTENT */
 
 .main-content{
@@ -364,7 +362,21 @@ margin-left: 15px;
 		width: calc(100% / 2 - 20px);
 		height: auto;
 }
+.pad-left {
+    padding-left:0px;
+}
 
+.bar-time ul li:nth-child(2) {
+    width: 180px;
+  }
+
+	.bar-time ul li {
+		    font-size: 13px;
+		}
+
+		.left-part {
+    font-size: 15px;
+}
 }
 
 
@@ -455,4 +467,43 @@ margin-left: 15px;
 		    margin: 20px 62px 20px 0;
 		    line-height: 2px;
 		    padding: 8px;
+		}
+
+	.left-part img {
+		    width: 20px;
+		    height: 20px;
+		    vertical-align: middle;
+				margin-left: 0;
+		}
+
+  .left-part{
+		font-size: 10px;
+		padding: 0;
+}
+
+.pad-left {
+    padding-left:0px;
+}
+
+.right-part ul a li i {
+    font-size: 10px;
+    line-height: 70px;}
+
+		.player a {
+    font-size: 14px;
+}
+
+.cental-part{
+	font-size: 50px;
+}
+
+.bar-time ul li:nth-child(2) {
+    width: 150px;
+  }
+
+	.bar-time ul li {
+		    font-size: 12px;
+		}
+		.right-part ul a:nth-child(5) li {
+		    width: 20px;
 		}
